@@ -1,0 +1,25 @@
+{
+  "name": "jquery.plug.js",
+  "version": "1.0.0",
+  "description": "plugs extensions from jquery",
+  "scripts": {
+    "start": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zhibuzu/jquery.plug.js.git"
+  },
+  "keywords": [
+    "plug",
+    "jquery"
+  ],
+  "author": "Jesse Hu",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/zhibuzu/jquery.plug.js/issues"
+  },
+  "homepage": "https://github.com/zhibuzu/jquery.plug.js#readme",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}
