@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" ／> 
+        <title>demo</title>
+
+        <style>
+            ul li {
+                list-style: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <div style="padding: 0 40px;margin: 20px 0;">
+                <input type="checkbox" id="checkall"> 
+                <label for="checkall">check all</label>
+            </div>
+
+            <ul>
+                <li><input type="checkbox" id="item_1" name="checkitem"><label for="item_1">item 1</label></li>
+                <li><input type="checkbox" id="item_2" name="checkitem"><label for="item_2">item 2</label></li>
+                <li><input type="checkbox" id="item_3" name="checkitem"><label for="item_3">item 3</label></li>
+            </ul>
+        </div>
+
+        <script src="./node_modules/jquery/dist/jquery.js"></script>
+        <script src="./jquery.checkall.js"></script>
+
+        <script>
+            $("#checkall").checkAll('[name="checkitem"]');
+        </script>
+    </body>
+</html>
