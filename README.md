@@ -42,3 +42,7 @@ $("#checkall").checkAll("[name='checkitem']", {onClick: function (checkedSlaves)
     // checkedSlaves: 返回已选中的附属checkbox组
 }});
 ```
+
+**在线运行演示**
+
+[codepen run js](http://codepen.io/hujesse/pen/egdrWr)
