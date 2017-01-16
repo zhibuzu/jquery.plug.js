@@ -47,7 +47,7 @@
 
         // 传递给回调函数的参数: 已选中的附属checkbox对象
         function callbackArguments() {
-            return {checkedSlaves: $slaves.filter(':checked')};
+            return [$slaves.filter(':checked')];
         }
 
         // 主checkbox点击事件

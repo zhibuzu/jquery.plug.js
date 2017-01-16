@@ -12,6 +12,7 @@ $master.checkAll($slaves, options);
 ```
 
 **jquery object:**
+
 | 参数         | 说明           |
 | ----------- |:-------------:| 
 | $master     | 主checkbox对象 | 
